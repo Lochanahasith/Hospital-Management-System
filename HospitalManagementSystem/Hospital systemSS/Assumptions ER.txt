@@ -1,0 +1,15 @@
+Assumptions -ER
+
+1) There are other Employees except Doctors and nurses .Therefore there's a partial disjoint
+	
+2) There may be payments which are irrelavant to patient's admission.Therfore there's no total participation of the payment
+
+3)1 ward has one Doctor.others will join if needed
+
+4)Every admission is assign to a ward
+
+5)There may be employees who are not assigned to a Ward.
+
+6)Employees contact number is a multivalued attribute.But patient's is not like that.(very rarely patients will be given calls)
+
+7)1 admission can have more payments(If many tests were done ) 
